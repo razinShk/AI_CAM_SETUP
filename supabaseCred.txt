@@ -1,0 +1,2 @@
+anion key = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlpZmh5cmN3dXZ5bWNybG1xc2ZyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTcyMDc4NDYsImV4cCI6MjA3Mjc4Mzg0Nn0.P8UzfKIC_aiGfhrZM3gnjz9L4Fk8Y-WQRSeAWDZlIFk
+project url = https://supabase.com/dashboard/project/iifhyrcwuvymcrlmqsfr

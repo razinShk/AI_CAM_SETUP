@@ -1,0 +1,40 @@
+# Raspberry Pi 5 + IMX500 AI Camera Requirements
+# Optimized for minimal CPU usage with camera-based AI processing
+
+# Core computer vision
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Raspberry Pi camera interface (install via apt)
+# picamera2  # Install with: sudo apt install python3-picamera2
+
+# Object tracking
+scipy>=1.10.0
+
+# Machine learning (CPU-optimized for Pi)
+ultralytics>=8.0.0
+torch>=2.0.0  # CPU version recommended for Pi
+torchvision>=0.15.0
+
+# Data handling
+pillow>=10.0.0
+
+# Optional: Advanced features
+flask>=2.3.0  # For web interface
+requests>=2.28.0  # For model downloads
+
+# Performance monitoring
+psutil>=5.9.0
+
+# Note: Install system dependencies first:
+# sudo apt update
+# sudo apt install -y python3-picamera2 python3-opencv python3-numpy
+#
+# For IMX500 AI models:
+# git clone https://github.com/raspberrypi/imx500-models.git
+#
+# Hardware requirements:
+# - Raspberry Pi 5
+# - IMX500 AI Camera module
+# - MicroSD card (32GB+ recommended)
+# - Adequate power supply (5V 3A+)
